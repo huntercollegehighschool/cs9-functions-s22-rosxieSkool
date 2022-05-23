@@ -19,5 +19,5 @@ def factorial(number):
   return product
 
 def combination(n, r):  # do not change this line
-  comb = (factorial(n)/(factorial(r)*(factorial(n-r))))  # delete the word pass when you start writing your code
+  comb = (factorial(n)//(factorial(r)*(factorial(n-r))))  # delete the word pass when you start writing your code
   return comb
